@@ -25,6 +25,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-image",
+    "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
