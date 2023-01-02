@@ -15,6 +15,10 @@ const config: GatsbyConfig = {
         name: "About",
         link: "/about",
       },
+      {
+        name: "Events",
+        link: "/events",
+      },
     ],
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -52,6 +56,20 @@ const config: GatsbyConfig = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "content-events",
+        path: "./content/events",
+      },
+      __key: "content-events",
+    },
+    {
+      resolve: "gatsby-transformer-yaml",
+      options: {
+        typeName: "Event",
+      },
     },
   ],
 };
