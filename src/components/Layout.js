@@ -12,10 +12,9 @@ import { useStaticQuery, graphql } from "gatsby";
 import Header from "./header";
 
 // Styles
-// import "../styles/reset.css";
-// import "../styles/accessibility.css";
-// import "../styles/global.module.css";
-// import "../fonts/fonts.css";
+import "../styles/reset.css";
+import "../styles/accessibility.css";
+import "../styles/global.module.css";
 import * as styles from "./layout.module.css";
 
 const Layout = ({ children }) => {

@@ -22,6 +22,7 @@ const config: GatsbyConfig = {
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-theme-ui",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
@@ -32,6 +33,7 @@ const config: GatsbyConfig = {
       },
     },
     "gatsby-transformer-remark",
+    "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
